@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LocaleChanger />
+    <HelloI18n />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloI18n from './components/HelloI18n.vue'
+import LocaleChanger from './components/LocaleChanger.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloI18n,
+    LocaleChanger
   }
 }
 </script>
